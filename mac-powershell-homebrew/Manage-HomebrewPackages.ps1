@@ -11,7 +11,7 @@ function Get-HomebrewPackages {
     [switch]$Detailed
   )
 
-  Write-Host "🍺 Analyzing Homebrew packages..." -ForegroundColor Cyan
+  Write-Host "🍺 Analysing Homebrew packages..." -ForegroundColor Cyan
 
   # Check if Homebrew is installed
   if (!(Get-Command brew -ErrorAction SilentlyContinue)) {

@@ -1,7 +1,11 @@
-# Handy Powershell Scripts
+# Scripts
 
-Collection of helpful powershell scripts. Used as a way to learn and understand powershell with testing on multiple platforms. 
+## Powershell Scripts
 
-Most scripts are platform specific, e.g. macOS deals with Homebrew management etc.
+Mostly around mac homebrew management, because why not?!
 
-Some might be more generic such as device information/monitoring.
+## Bash Scripts
+
+Collection of bash scripts that are used to rename and manage folder contents.
+Created during marking of student assessments and some automation was needed.
+Checks two directories for contents, extracts studentID from folder/file based on moodle assessment download
